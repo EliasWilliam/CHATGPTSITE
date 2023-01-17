@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Programming Job Board</title>
+  <link rel="stylesheet" type="text/css" href="app.css">
+</head>
+<body>
+  <header>
+    <h1>Programming Job Board</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="#featured-jobs">Featured Jobs</a></li>
+      <li><a href="#job-categories">Job Categories</a></li>
+      <li><a href="#submit-a-job">Submit a Job</a></li>
+    </ul>
+  </nav>
+  <main>
+    <section id="featured-jobs">
+      <h2>Featured Jobs</h2>
+      <ul>
+        <li>
+          <h3>Full Stack Developer</h3>
+          <p>Company Name - Location</p>
+          <p>Job description...</p>
+          <a href="#">View Job</a>
+        </li>
+        <li>
+          <h3>Front-End Developer</h3>
+          <p>Company Name - Location</p>
+          <p>Job description...</p>
+          <a href="#">View Job</a>
+        </li>
+      </ul>
+    </section>
+    <section id="job-categories">
+      <h2>Job Categories</h2>
+      <ul>
+        <li><a href="#">Full Stack Development</a></li>
+        <li><a href="#">Front-End Development</a></li>
+        <li><a href="#">Mobile Development</a></li>
+      </ul>
+    </section>
+    <section id="submit-a-job">
+      <h2>Submit a Job</h2>
+      <form>
+        <label for="job-title">Job Title</label>
+        <input type="text" id="job-title">
+        <label for="company-name">Company Name</label>
+        <input type="text" id="company-name">
+        <label for="job-description">Job Description</label>
+        <textarea id="job-description"></textarea>
+        <input type="submit" value="Submit Job">
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>Copyright © 2022 Programming Job Board</p>
+  </footer>
+</body>
+<script src="app.js"></script>
+</html>
